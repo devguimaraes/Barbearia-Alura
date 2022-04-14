@@ -5,11 +5,7 @@ body {
 }
 
 img#banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    width: 98%;
+    width: 100%;
 }
 
 div.conteudoPrincipal {
@@ -18,8 +14,8 @@ div.conteudoPrincipal {
 
 }
 
-h1,
-h2 {
+/* Class que referencia todos os titulos da página */
+.titulos {
     text-align: center;
     width: 100%;
 }
@@ -28,20 +24,20 @@ p {
     text-align: center;
 }
 
-p#temaPrincipal {
+div.conteudoPrincipal p#temaPrincipal {
     font-size: 20px;
     text-align: center;
 }
 
-p#temaPrincipal em strong {
+div.conteudoPrincipal p#temaPrincipal em strong {
     color: #ff0000;
 }
 
-div.beneficios{
-    padding: 20px;
+div.beneficios {
+    padding: 15px;
 }
 
-div.beneficios ul{
+div.beneficios ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -51,13 +47,13 @@ div.beneficios ul{
 
 div.beneficios ul li.itens {
     font-style: italic;
-  
+
 
 }
 
 div.beneficios img#beneficios {
     display: inline-block;
-    
+
     padding: 5px;
     width: 50%;
 }
