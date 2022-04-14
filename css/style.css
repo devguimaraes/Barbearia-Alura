@@ -14,6 +14,7 @@ img#banner {
 
 div.conteudoPrincipal {
     background: #808080;
+    padding: 30px;
 
 }
 
@@ -36,18 +37,27 @@ p#temaPrincipal em strong {
     color: #ff0000;
 }
 
+div.beneficios{
+    padding: 20px;
+}
 
-ul li.itens {
+div.beneficios ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+div.beneficios ul li.itens {
     font-style: italic;
-    margin: 0 auto;
+  
 
 }
 
 div.beneficios img#beneficios {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    
     padding: 5px;
-    width: 98%;
-
+    width: 50%;
 }
