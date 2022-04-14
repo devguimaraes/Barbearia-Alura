@@ -15,6 +15,11 @@ div.conteudoPrincipal {
 }
 
 /* Class que referencia todos os titulos da página */
+
+h1.titulo-principal{
+    padding-left: 20px;
+}
+
 .titulos {
     text-align: center;
     width: 100%;
