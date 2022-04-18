@@ -1,4 +1,4 @@
-
+/* tags do cabeçalho da página produtos */
 
 header {
     background: #BBBBBB;
@@ -35,4 +35,36 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+}
+
+/* Tags do main principal da página produtos */
+
+main ul.produtos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+main ul.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 0;
+    border: #000000 solid 1px;
+}
+
+main ul.produtos li h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main ul.produtos li p.descrProduto{
+    font-size: 18px;
+    
+}
+
+main ul.produtos li p.preco {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
