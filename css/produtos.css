@@ -1,8 +1,16 @@
 /* tags do cabeçalho da página produtos */
 
 header {
-    background: #BBBBBB;
+    background: url("../img/bg.jpg");
     padding: 20px 0;
+}
+
+header img:hover {
+    color: #ffffff;
+    transition: all 0.5s;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 
@@ -26,7 +34,7 @@ header nav li {
 
 header nav a {
     display: inline;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 22px;
@@ -34,8 +42,12 @@ header nav a {
 }
 
 header nav a:hover {
-    text-decoration: underline;
-    color: #B03060;
+    color: #ff0000;
+    transition: all 0.5s;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+
 }
 
 /* Tags do main principal da página produtos */
@@ -59,23 +71,29 @@ main ul.produtos li {
     box-sizing: border-box;
 }
 
-main ul.produtos li:hover{
-    border-color: #B03060;  
+main ul.produtos li:hover {
+    border-color: #B03060;
+    transition: all 0.5s;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+
+
 }
 
-main ul.produtos li:hover p{
-    color: #B03060; 
-    font-size: 90px; 
+main ul.produtos li:hover p {
+    color: #B03060;
+    font-size: 90px;
     zoom: 105%
 }
 
-main ul.produtos li:active{
+main ul.produtos li:active {
     border-color: #ff0000;
     font-size: 40px;
     zoom: 105%;
 }
 
-main ul.produtos li h2:hover{
+main ul.produtos li h2:hover {
     color: #B03060;
     zoom: 110%;
 }
@@ -86,9 +104,9 @@ main ul.produtos li h2 {
     font-weight: bold;
 }
 
-main ul.produtos li p.descrProduto{
+main ul.produtos li p.descrProduto {
     font-size: 18px;
-    
+
 }
 
 main ul.produtos li p.preco {
@@ -100,14 +118,22 @@ main ul.produtos li p.preco {
 
 /* Tags do footer da página */
 
-footer{
+footer {
     text-align: center;
     background-image: url("../img/bg.jpg");
     padding: 40px 0;
 }
 
+footer img:hover {
+    color: #ffffff;
+    transition: all 0.5s;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
 footer p.rodape {
-    color:#ffffff;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 20px;
