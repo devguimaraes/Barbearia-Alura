@@ -1,16 +1,12 @@
 /* tags do cabeçalho da página produtos */
 
+/* tags do cabeçalho da página principal */
+
 header {
-    background: url("../img/bg.jpg");
+    /* background: #BBBBBB; */
     padding: 20px 0;
-}
-
-header img:hover {
-    color: #ffffff;
-    transition: all 0.5s;
-
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    background-image: url("../img/bg.jpg");
+    padding: 40px 0;
 }
 
 
@@ -18,6 +14,16 @@ header div.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+header div.caixa h1 img:hover {
+    /* text-decoration: underline; */
+    color: #ffffff;
+    transition: all 0.5s;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+
 }
 
 header nav {
@@ -37,19 +43,19 @@ header nav a {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
 }
 
 header nav a:hover {
-    color: #ff0000;
+    /* text-decoration: underline; */
+    color: #808080;
     transition: all 0.5s;
 
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 
 }
-
 /* Tags do main principal da página produtos */
 
 main ul.produtos {

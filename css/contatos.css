@@ -1,4 +1,4 @@
-/* Tags do cabecalho da página */
+/* tags do cabeçalho da página principal */
 
 header {
     /* background: #BBBBBB; */
@@ -6,6 +6,7 @@ header {
     background-image: url("../img/bg.jpg");
     padding: 40px 0;
 }
+
 
 header div.caixa {
     position: relative;
@@ -66,7 +67,7 @@ main form {
     margin: 40px auto;
 }
 
-main form label, form p{
+main form label, form legend{
     display: block;
     font-size: 15px;
     margin: 10px 0 10px 0;
