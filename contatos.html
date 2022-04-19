@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/contatos.css">
     <title>Contatos</title>
 </head>
+
 <body>
     <header>
         <div class="caixa">
@@ -22,7 +24,44 @@
         </div>
     </header>
     <main>
-        <h1>Aqui vai o conteúdo principal da página</h1>
+        <form action="POST">
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome" placeholder="Digite seu nome" class="inputPadrao" autofocus required >
+
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" id="email" class="inputPadrao"required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" placeholder="Digite seu número" class="inputPadrao" required>
+
+            <label for="msgTxt">Mensagem</label>
+            <textarea name="msgTxt" id="msgTxt" cols="80" rows="10" placeholder="Digite sua mensagem" class="inputPadrao" ></textarea>
+
+            <div class="radio-contato">
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email"><input type="radio" value="radio-email" name="radio-contato">Email</label>
+
+                <label for="radio-telefone"><input type="radio" value="radio-telefone" name="radio-contato">Telefone</label>
+
+                <label for="radio-wathsapp"><input type="radio" value="radio-wathsapp" name="radio-contato">Wathsapp</label>
+
+            </div>
+            <div class="atendimentoHorario">
+                <label for="horarioAtendimento"><p>Qual horário prefere ser atendido?</p>
+                    <select name="horarioAtendimento" id="horarioAtendimento">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+                </label>
+            </div>
+            
+            <label for="checkbox" class="checkbox"><input type="checkbox" value="checkbox" name="checkbox">Gostária de receber nossas novidade por e-mail?</label>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+
     </main>
     <footer>
         <img src="img/logo-branco.png" alt="logo de homem barbudo">
@@ -30,4 +69,5 @@
             &#10016; Contra qualquer tipo de Copyright</p>
     </footer>
 </body>
+
 </html>
