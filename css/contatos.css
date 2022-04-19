@@ -7,7 +7,6 @@ header {
     padding: 40px 0;
 }
 
-
 header div.caixa {
     position: relative;
     width: 940px;
@@ -53,6 +52,15 @@ header nav a:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 
+}
+
+/* Tags do MAIN do projeto */
+
+main h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
 }
 
 /* Tags do footer da página */
