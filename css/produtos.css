@@ -35,6 +35,7 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+    color: #B03060;
 }
 
 /* Tags do main principal da página produtos */
@@ -44,6 +45,7 @@ main ul.produtos {
     margin: 0 auto;
     padding: 50px 0;
 }
+
 
 main ul.produtos li {
     display: inline-block;
@@ -56,6 +58,28 @@ main ul.produtos li {
     padding: 30px 20px;
     box-sizing: border-box;
 }
+
+main ul.produtos li:hover{
+    border-color: #B03060;  
+}
+
+main ul.produtos li:hover p{
+    color: #B03060; 
+    font-size: 90px; 
+    zoom: 105%
+}
+
+main ul.produtos li:active{
+    border-color: #ff0000;
+    font-size: 40px;
+    zoom: 105%;
+}
+
+main ul.produtos li h2:hover{
+    color: #B03060;
+    zoom: 110%;
+}
+
 
 main ul.produtos li h2 {
     font-size: 30px;
