@@ -104,10 +104,37 @@ main .enviar:hover{
 
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    transform: scale(1.2);
-    transform: rotate(360deg);
+    /* transform: scale(1.2);
+    transform: rotate(360deg); */
 
 }
+
+/* Tabela da página contatos */
+
+main table {
+    margin: 20px 0 40px 0;
+    width: 40%;
+    border: #000000 solid 2px;
+}
+
+main table thead {
+    background-color: #808080;
+    text-align: center;
+    font-size: 18px;
+}
+
+main table thead tr td, th {
+    border-bottom: #000000 solid 2px;
+    padding: 15px 8px;
+}
+
+main table tbody tr td {
+    padding: 20px;
+    border: #000000 solid 2px;
+    text-align: center;
+}
+
+
 
 
 
