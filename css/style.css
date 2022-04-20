@@ -32,10 +32,12 @@ header div.caixa {
 header div.caixa h1 img:hover {
     /* text-decoration: underline; */
     color: #ffffff;
-    transition: all 0.5s;
+    transition: all 0.8s;
 
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    transform: scale(1.2);
+    transform: rotate(360deg);
 
 }
 

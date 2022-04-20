@@ -17,10 +17,12 @@ header div.caixa {
 header div.caixa h1 img:hover {
     /* text-decoration: underline; */
     color: #ffffff;
-    transition: all 0.5s;
+    transition: all 0.8s;
 
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    transform: scale(1.2);
+    transform: rotate(360deg);
 
 }
 
@@ -82,6 +84,29 @@ main form .inputPadrao {
 
 main form label.checkbox, div.atendimentoHorario {
     margin: 30px 0;
+}
+
+main .enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #808080;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .enviar:hover{
+    color: #ffffff;
+    transition: all 0.8s;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    transform: scale(1.2);
+    transform: rotate(360deg);
+
 }
 
 
