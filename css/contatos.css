@@ -31,7 +31,7 @@ header div.caixa h1 img:hover {
 
 header nav {
     position: absolute;
-    top: 110px;
+    top: calc(50%);
     right: 0px;
 }
 

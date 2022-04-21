@@ -72,6 +72,12 @@ header nav a:hover {
 
 img.banner {
     width: 100%;
+    opacity: 0.9;
+}
+
+img.banner:hover {
+    transition: all 0.9s;
+    opacity: 1;
 }
 
 /* Tudo da parte principal (main) da página */
@@ -128,6 +134,7 @@ main section.principal p em {
 
 main section img.beneficiosJPG {
     width: 60%;
+    box-shadow: 10px 10px 20px #000;
 }
 
 main section.mapa {
