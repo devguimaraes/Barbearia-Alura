@@ -3,6 +3,7 @@
 /* tags do cabeçalho da página principal */
 
 body{
+    font-family: 'Montserrat', sans-serif;;
     scroll-behavior: smooth;
 }
 

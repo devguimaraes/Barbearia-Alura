@@ -1,5 +1,8 @@
 /* tags do cabeçalho da página principal */
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
 header {
     /* background: #BBBBBB; */
     padding: 20px 0;

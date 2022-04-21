@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;;
     height: 100%;
     background: #ffffff;
+    scroll-behavior: smooth;
 }
 
 /* Imagem principal do site */
@@ -107,18 +108,18 @@ main section.principal p em {
     font-style: italic;
 }
 
+/* Sessao Mapas */
+
 main section img.beneficiosJPG {
     width: 60%;
 }
 
-/* margin: 0 10% 2em 10%;A */
 main section.mapa p{
     margin: 0 10% 2em 10%;
 }
 
-main section.mapa {
+main section.mapa, .beneficios {
     padding: 3em 0;
-    text-align: center;
     margin: 0 10%;
 }
 
@@ -126,6 +127,33 @@ main section.mapa iframe {
     margin-bottom: 100px;
 }
 
+/* Sessão Beneficios */
+
+main section.beneficios div.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+main section.beneficios div.conteudo-beneficios ul.lista-beneficios {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+}
+
+
+main section.beneficios div.conteudo-beneficios ul li.itens{
+    line-height: 1.5em;
+}
+
+main section.beneficios div.conteudo-beneficios ul li.itens:first-child{
+    font-weight: bold;
+}
+
+
+main section.beneficios div.conteudo-beneficios img {
+    margin-bottom: 10%;
+    width: 60%;
+}
 
 /* Tags do footer da página */
 
