@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
     height: 100%;
     background: #ffffff;
 }
@@ -8,7 +8,7 @@ body {
 
 img#banner {
     width: 100%;
-    height: 40%;
+    height: 30%;
 }
 
 
@@ -36,9 +36,7 @@ header div.caixa h1 img:hover {
 
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    transform: scale(1.2);
-    transform: rotate(360deg);
-
+    transform: scale(1.2) rotate(360deg);
 }
 
 header nav {
@@ -72,64 +70,60 @@ header nav a:hover {
 
 }
 
-/* Class que referencia todos os titulos da página */
-div.conteudoPrincipal h2.titulos {
-    margin: 20px 20px;
-    padding: 10px;
-    font-size: 40px;
-    text-align: center;
+img.banner {
     width: 100%;
 }
 
-p {
-    margin-top: 20px;
-    font-size: 17px;
+/* Tudo da parte principal (main) da página */
+
+main {
+    margin: 0 10%;
+    font-family: sans-serif;
+}
+
+main section .titulo {
+    font-size: 2em;
     text-align: center;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-div.conteudoPrincipal p#temaPrincipal {
-    font-size: 24px;
+main section.principal img.utensiliosBarbearia{
+    width: 9%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+main section p {
+    margin: 0 0 2em;
+}
+
+
+main section.principal p strong {
+    font-weight: bold;
+}
+
+main section.principal p em {
+    font-style: italic;
+}
+
+main section img.beneficiosJPG {
+    width: 60%;
+}
+
+/* margin: 0 10% 2em 10%;A */
+main section.mapa p{
+    margin: 0 10% 2em 10%;
+}
+
+main section.mapa {
+    padding: 3em 0;
     text-align: center;
+    margin: 0 10%;
 }
 
-div.conteudoPrincipal p#temaPrincipal em strong {
-    color: #ff0000;
-}
-
-div.beneficios {
-    padding: 15px;
-}
-
-div.beneficios h3 {
-    margin: 40px 0px 10px 100px;
-    font-size: 40px;
-    text-align: left;
-    width: 100%;
-}
-
-div.beneficios ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-
-div.beneficios ul li.itens {
-    font-style: unset;
-    text-decoration: dotted;
-    font-size: 18px;
-    margin-left: 100px;
-    margin: 100px 100px;
-
-
-}
-
-div.beneficios img#beneficios {
-    display: inline-block;
-    margin-left: 140px;
-    padding: 5px;
-    width: 50%;
+main section.mapa iframe {
+    margin-bottom: 100px;
 }
 
 
