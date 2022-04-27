@@ -2,4 +2,5 @@
 
 1° modulo do curso de desenvolvimento web da alura. 
 
-As linguagens que vamos utilizar no decorrer das aulas, são: HTML5, CSS3 E JAVASCRIPT
+Projeto de criação de um site fictício para a Barbearia Alura. 
+Site criado para versão desktop, sem design responsivo para as versões tablets e mobile. 
